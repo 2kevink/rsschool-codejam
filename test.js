@@ -64,6 +64,6 @@ describe('recursion', () => {
   });
   it('tree 2', () => {
     const resultRecursion = recursion(tree2);
-    assert.deepEqual(resultRecursion[0], [undefined]);
+    assert.deepEqual(resultRecursion, [undefined]);
   });
 });
