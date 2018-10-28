@@ -2,7 +2,7 @@
   "name": "rsschool-codejam",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.8.0",
@@ -11,7 +11,7 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
